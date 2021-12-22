@@ -1,11 +1,13 @@
 # QOI Thumbnail Provider
-Adds thumbnails for QOI images in Windows Explorer
+Adds thumbnails for [QOI images](https://github.com/phoboslab/qoi) in Windows Explorer
 
 ![QOI images preview in Windows Explorer](./_images/thumbnails.png)
 
 ## Supported windows versions
 
 I've tested it on Windows 10 and Windows 11, but I guess it should work on Vista, 7 and 8 as well.
+
+**x64 only at the moment!**
 
 ## Installation
 
