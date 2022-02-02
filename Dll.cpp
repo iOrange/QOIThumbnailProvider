@@ -180,6 +180,7 @@ STDAPI DllRegisterServer() {
             {HKEY_CURRENT_USER, L"Software\\Classes\\CLSID\\" SZ_CLSID_QOITHUMBHANDLER,                      nullptr,           SZ_QOITHUMBHANDLER},
             {HKEY_CURRENT_USER, L"Software\\Classes\\CLSID\\" SZ_CLSID_QOITHUMBHANDLER L"\\InProcServer32",  nullptr,           szModuleName},
             {HKEY_CURRENT_USER, L"Software\\Classes\\CLSID\\" SZ_CLSID_QOITHUMBHANDLER L"\\InProcServer32",  L"ThreadingModel", L"Apartment"},
+            {HKEY_CURRENT_USER, L"Software\\Classes\\.qoi",                                                  L"PerceivedType",  L"image"},
             {HKEY_CURRENT_USER, L"Software\\Classes\\.qoi\\ShellEx\\{e357fccd-a995-4576-b01f-234630154e96}", nullptr,           SZ_CLSID_QOITHUMBHANDLER},
         };
 
@@ -204,7 +205,7 @@ STDAPI DllUnregisterServer() {
 
     const PCWSTR regKeys[] = {
         L"Software\\Classes\\CLSID\\" SZ_CLSID_QOITHUMBHANDLER,
-        L"Software\\Classes\\.qoi\\ShellEx\\{e357fccd-a995-4576-b01f-234630154e96}"
+        L"Software\\Classes\\.qoi"
     };
 
     // Delete the registry entries

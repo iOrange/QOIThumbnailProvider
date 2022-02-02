@@ -7,8 +7,8 @@
 #endif
 
 VS_VERSION_INFO VERSIONINFO
-FILEVERSION     0,0,1,0
-PRODUCTVERSION  0,0,1,0
+FILEVERSION     0,0,2,0
+PRODUCTVERSION  0,0,2,0
 FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
 FILEFLAGS       VER_DEBUG
 FILEOS          VOS__WINDOWS32
@@ -21,14 +21,14 @@ BEGIN
         BEGIN
             VALUE "CompanyName",      "iOrange"
             VALUE "FileDescription",  "QOI Thumbnail Provider"
-            VALUE "FileVersion",      "0.0.1.0"
+            VALUE "FileVersion",      "0.0.2.0"
             VALUE "InternalName",     "QOIThumbnailProvider.dll"
-            VALUE "LegalCopyright",   "2021, iOrange"
+            VALUE "LegalCopyright",   "2022, iOrange"
             VALUE "LegalTrademarks1", ""
             VALUE "LegalTrademarks2", ""
             VALUE "OriginalFilename", "QOIThumbnailProvider.dll"
             VALUE "ProductName",      "QOIThumbnailProvider"
-            VALUE "ProductVersion",   "0, 0, 1, 0"
+            VALUE "ProductVersion",   "0, 0, 2, 0"
         END
     END
     BLOCK "VarFileInfo"
